@@ -5,7 +5,7 @@ from celery import current_app
 
 from celery import current_app, Task
 from celery import task as base_task, shared_task as base_shared_task
-from celery.contrib.batches import Batches
+from celery_batches import Batches
 import django
 from django.conf import settings
 from django.db import transaction
