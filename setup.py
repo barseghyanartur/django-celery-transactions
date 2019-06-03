@@ -16,7 +16,7 @@ setup(
     license="Simplified BSD",
     packages=["djcelery_transactions"],
     install_requires=[
-        "celery>=3.0,<=4.0",
+        "celery>=4.0,<=5.0",
         "celery-batches",
     ],
     classifiers=[
